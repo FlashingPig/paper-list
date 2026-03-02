@@ -15,6 +15,7 @@ ICCV 2025
 summary：FedMVP提出了一种联邦多模态视觉提示调优框架，通过PromptFormer模块利用交叉注意力机制协同对齐LLM生成的文本属性特征和视觉patch嵌入，在仅训练少量提示参数而冻结预训练CLIP模型的情况下，实现了联邦non-IID场景下视觉-语言模型对未见类别和领域的高效泛化适应。
 ![架构图](./images/FedMVP.png)
 
+
 ### FedVLM: Scalable Personalized Vision-Language Models through Federated Learning
 code-link: None
 ECAI 2025  
