@@ -12,7 +12,8 @@ summary：GalLoP 通过稀疏选择 + 特征对齐学习强判别力的局部提
 ### FedCLIP: Fast Generalization and Personalization for CLIP in  Federated Learning
 code-link: https://github.com/microsoft/PersonalizedFL  
 IEEE Data Engineering Bulletin 2023  
-summary：FedCLIP方法通过为CLIP大模型设计基于注意力的轻量级适配器（AttAI），仅训练适配器参数而冻结预训练模型，通过分离视觉编码器与文本编码器的更新策略并引入对齐约束，在联邦学习中同时实现了快速泛化与个性化，并显著降低了计算和通信开销。 
+summary：FedCLIP方法通过为CLIP大模型设计基于注意力的轻量级适配器（AttAI），仅训练适配器参数而冻结预训练模型，通过分离视觉编码器与文本编码器的更新策略并引入对齐约束，在联邦学习中同时实现了快速泛化与个性化，并显著降低了计算和通信开销。   
+![架构图](./images/FedCLIP.png)  
 
 ### FedMVP: Federated Multimodal Visual Prompt Tuning for Vision-Language  Models
 code-link: https://github.com/mainaksingha01/FedMVP    
