@@ -1,10 +1,4 @@
 # paper-list
-## VLM
-### GalLoP: Learning Global and Local Prompts  for Vision-Language Models
-
-
-
-
 ## FL
 ### FEDERATED TEXT-DRIVEN PROMPT GENERATION  FOR VISION-LANGUAGE MODELS  
 code-link: https://github.com/boschresearch/FedTPG  
@@ -28,3 +22,9 @@ summary：FedMVP提出了一种联邦多模态视觉提示调优框架，通过P
 code-link: None  
 ECAI 2025  
 summary：FedVLM 框架通过在联邦学习中设计个性化低秩适配方法 pLoRA（仅聚合B矩阵、保留A矩阵本地个性化），解决了视觉-语言模型（VLM）在去中心化、非IID数据环境下难以高效个性化微调且通信开销大的问题，实现了隐私保护、低通信成本与高性能个性化适配的统一。  
+
+## VLM
+### GalLoP: Learning Global and Local Prompts  for Vision-Language Models
+
+
+
