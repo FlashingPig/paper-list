@@ -25,6 +25,7 @@ summary：FedVLM 框架通过在联邦学习中设计个性化低秩适配方法
 
 ## VLM
 ### GalLoP: Learning Global and Local Prompts  for Vision-Language Models
-
-
-
+code-link: https://github.com/MarcLafon/gallop  
+ECCV 2024  
+summary：GalLoP——Learning Global and Local Prompts for Vision-Language Models 提出一种同时学习 全局提示（global prompts）和局部提示（local prompts） 的提示学习方法，通过将文本提示分别与 整张图像的全局特征 和 图像中稀疏选择的局部区域特征 对齐，并利用 top-k稀疏区域选择、线性投影增强视觉-文本对齐、prompt dropout 以及多尺度局部提示策略 来提升提示多样性和判别能力，从而在少样本图像分类任务中同时提高 分类准确率、域泛化能力和OOD检测鲁棒性。
+![架构图](./images/GalLop.png)  
