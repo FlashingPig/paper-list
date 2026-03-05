@@ -4,7 +4,7 @@
 code-link: https://github.com/boschresearch/FedTPG  
 ICLR 2024  
 summary：FedTPG（Federated Text-driven Prompt Generation） 方法，在联邦学习框架下设计一个 文本语义驱动的提示生成器（Text-driven Prompt Generator），利用类别的文本语义信息为视觉-语言模型自动生成可学习的提示向量，从而避免每个客户端独立学习提示导致的过拟合与数据异质性问题，并在不共享原始数据的情况下提升像 CLIP 这类视觉-语言模型在联邦环境中的泛化能力与稳定性。
-![架构图](./images/GalLoP.png)
+![架构图](./images/FedTPG.png)
 
 
 
