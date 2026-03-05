@@ -1,19 +1,16 @@
 # paper-list
 ## VLM
 ### GalLoP: Learning Global and Local Prompts  for Vision-Language Models
-code-link: https://github.com/boschresearch/FedTPG  
-ICLR 2024  
-summary：FedTPG（Federated Text-driven Prompt Generation） 方法，在联邦学习框架下设计一个 文本语义驱动的提示生成器（Text-driven Prompt Generator），利用类别的文本语义信息为视觉-语言模型自动生成可学习的提示向量，从而避免每个客户端独立学习提示导致的过拟合与数据异质性问题，并在不共享原始数据的情况下提升像 CLIP 这类视觉-语言模型在联邦环境中的泛化能力与稳定性。
-![架构图](./images/FedTPG.png)
+
 
 
 
 ## FL
 ### FEDERATED TEXT-DRIVEN PROMPT GENERATION  FOR VISION-LANGUAGE MODELS  
-code-link: https://github.com/microsoft/PersonalizedFL  
-IEEE Data Engineering Bulletin 2023  
-summary：FedCLIP方法通过为CLIP大模型设计基于注意力的轻量级适配器（AttAI），仅训练适配器参数而冻结预训练模型，通过分离视觉编码器与文本编码器的更新策略并引入对齐约束，在联邦学习中同时实现了快速泛化与个性化，并显著降低了计算和通信开销。   
-![架构图](./images/FedCLIP.png)  
+code-link: https://github.com/boschresearch/FedTPG  
+ICLR 2024  
+summary：FedTPG（Federated Text-driven Prompt Generation） 方法，在联邦学习框架下设计一个 文本语义驱动的提示生成器（Text-driven Prompt Generator），利用类别的文本语义信息为视觉-语言模型自动生成可学习的提示向量，从而避免每个客户端独立学习提示导致的过拟合与数据异质性问题，并在不共享原始数据的情况下提升像 CLIP 这类视觉-语言模型在联邦环境中的泛化能力与稳定性。
+![架构图](./images/FedTPG.png)
 
 ### FedCLIP: Fast Generalization and Personalization for CLIP in  Federated Learning
 code-link: https://github.com/microsoft/PersonalizedFL  
