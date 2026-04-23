@@ -1,5 +1,9 @@
 # paper-list
-## FL
+## FL  
+### Communication-Efficient Learning of Deep Networks from Decentralized Data  
+AISTATS 2017  
+summary: FedAvg提出了经典的联邦平均算法，在保护用户本地数据不出设备的前提下，通过服务器协调多个客户端进行分布式模型训练。具体而言，各客户端基于本地数据对全局模型进行多轮梯度更新，服务器再按照客户端样本量对本地模型参数进行加权平均，得到新的全局模型。该方法显著减少了分布式训练中的通信轮次，为隐私保护场景下的高效协同学习奠定了基础，并成为后续联邦学习研究的核心基线方法。  
+
 ### FEDERATED TEXT-DRIVEN PROMPT GENERATION  FOR VISION-LANGUAGE MODELS  
 code-link: https://github.com/boschresearch/FedTPG  
 ICLR 2024  
