@@ -30,6 +30,11 @@ IJCV 2022
 summary：CoOp提出了一种面向视觉-语言模型CLIP的提示学习方法，通过将文本prompt中的上下文词表示为可学习向量，在冻结预训练模型参数的前提下仅更新少量prompt参数，实现对下游图像分类任务的高效适配。该方法包含统一上下文和类别特定上下文两种形式，在少样本设置下相比人工设计prompt取得了更优性能，同时具备较好的参数效率与迁移能力。 
 ![架构图](./images/coop.png)  
 
+### Conditional Prompt Learning for Vision-Language Models
+code-link: https://github.com/KaiyangZhou/CoOp
+CVPR 2022
+summary: CoCoOp针对CoOp在少样本学习中容易过拟合基类、对新类别泛化能力不足的问题，提出一种条件式提示学习方法，在共享可学习上下文的基础上，通过轻量级元网络根据输入图像特征动态生成实例相关的prompt token，使文本提示能够随样本自适应调整。该方法在保持参数高效的同时有效提升了CLIP在base-to-novel泛化场景下的表现，相比静态prompt学习方法具有更好的跨类别泛化能力。  
+
 ### KgCoOp: Knowledge-guided Prompt Learning for Vision-Language Models  
 code-link: https://github.com/htyao89/KgCoOp  
 CVPR 2023  
