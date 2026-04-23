@@ -30,6 +30,11 @@ IJCV 2022
 summary：CoOp提出了一种面向视觉-语言模型CLIP的提示学习方法，通过将文本prompt中的上下文词表示为可学习向量，在冻结预训练模型参数的前提下仅更新少量prompt参数，实现对下游图像分类任务的高效适配。该方法包含统一上下文和类别特定上下文两种形式，在少样本设置下相比人工设计prompt取得了更优性能，同时具备较好的参数效率与迁移能力。 
 ![架构图](./images/coop.png)  
 
+### KgCoOp: Knowledge-guided Prompt Learning for Vision-Language Models
+code-link: https://github.com/htyao89/KgCoOp
+CVPR 2023
+summary: KgCoOp针对CoOp在少样本学习中容易过拟合基类、对新类泛化能力不足的问题，提出一种知识引导的提示学习方法，在学习可训练文本上下文的同时，引入预训练CLIP知识约束，保持学习后文本特征与原始手工prompt语义表示的一致性，从而在下游适配能力与跨类泛化能力之间取得更好平衡。该方法结构简单、参数高效，并在base-to-novel泛化设置下取得了优于CoOp的表现。
+
 ### GalLoP: Learning Global and Local Prompts  for Vision-Language Models
 code-link: https://github.com/MarcLafon/gallop  
 ECCV 2024  
