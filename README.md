@@ -27,7 +27,8 @@ summary：FedVLM 框架通过在联邦学习中设计个性化低秩适配方法
 ### Learning to Prompt for Vision-Language Models  
 code-link: https://github.com/KaiyangZhou/CoOp  
 IJCV 2022  
-summary：CoOp提出了一种面向视觉-语言模型CLIP的提示学习方法，通过将文本prompt中的上下文词表示为可学习向量，在冻结预训练模型参数的前提下仅更新少量prompt参数，实现对下游图像分类任务的高效适配。该方法包含统一上下文和类别特定上下文两种形式，在少样本设置下相比人工设计prompt取得了更优性能，同时具备较好的参数效率与迁移能力。  
+summary：CoOp提出了一种面向视觉-语言模型CLIP的提示学习方法，通过将文本prompt中的上下文词表示为可学习向量，在冻结预训练模型参数的前提下仅更新少量prompt参数，实现对下游图像分类任务的高效适配。该方法包含统一上下文和类别特定上下文两种形式，在少样本设置下相比人工设计prompt取得了更优性能，同时具备较好的参数效率与迁移能力。 
+![架构图](./images/coop.png)  
 
 ### GalLoP: Learning Global and Local Prompts  for Vision-Language Models
 code-link: https://github.com/MarcLafon/gallop  
