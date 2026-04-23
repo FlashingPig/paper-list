@@ -9,6 +9,11 @@ code-link: https://github.com/litian96/FedProx
 MLSys 2020  
 summary: FedProx针对联邦学习中客户端数据异构和设备异构导致的训练不稳定问题，提出一种带近端正则项的联邦优化方法，在客户端本地目标函数中加入对全局模型参数的约束项，以限制本地更新偏离全局模型过远。该方法能够缓解非IID数据下局部训练漂移和部分客户端无法完整参与训练的问题，从而提高联邦训练的稳定性与收敛表现，是面向异构联邦环境的重要改进方法。  
 
+### Model-Contrastive Federated Learning（MOON）  
+code-link: https://github.com/QinbinLi/MOON  
+CVPR 2021  
+summary: MOON针对联邦学习中非IID数据导致本地模型更新方向分散、全局模型性能下降的问题，提出一种基于模型对比学习的联邦训练方法，通过在客户端本地训练中引入模型级对比损失，使当前本地模型表示靠近全局模型、远离历史本地模型，从而增强局部优化过程中的全局一致性。该方法无需修改联邦训练基本框架，即可有效缓解客户端漂移并提升非IID场景下的模型性能。  
+
 ### FEDERATED TEXT-DRIVEN PROMPT GENERATION  FOR VISION-LANGUAGE MODELS(FedTPG)  
 code-link: https://github.com/boschresearch/FedTPG  
 ICLR 2024  
