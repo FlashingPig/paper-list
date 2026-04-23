@@ -23,7 +23,12 @@ code-link: None
 ECAI 2025  
 summary：FedVLM 框架通过在联邦学习中设计个性化低秩适配方法 pLoRA（仅聚合B矩阵、保留A矩阵本地个性化），解决了视觉-语言模型（VLM）在去中心化、非IID数据环境下难以高效个性化微调且通信开销大的问题，实现了隐私保护、低通信成本与高性能个性化适配的统一。  
 
-## VLM
+## VLM  
+### Learning to Prompt for Vision-Language Models  
+code-link: https://github.com/KaiyangZhou/CoOp  
+IJCV 2022  
+summary：CoOp提出了一种面向视觉-语言模型CLIP的提示学习方法，通过将文本prompt中的上下文词表示为可学习向量，在冻结预训练模型参数的前提下仅更新少量prompt参数，实现对下游图像分类任务的高效适配。该方法包含统一上下文和类别特定上下文两种形式，在少样本设置下相比人工设计prompt取得了更优性能，同时具备较好的参数效率与迁移能力。  
+
 ### GalLoP: Learning Global and Local Prompts  for Vision-Language Models
 code-link: https://github.com/MarcLafon/gallop  
 ECCV 2024  
