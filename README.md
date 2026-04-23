@@ -4,6 +4,11 @@
 AISTATS 2017  
 summary: FedAvg提出了经典的联邦平均算法，在保护用户本地数据不出设备的前提下，通过服务器协调多个客户端进行分布式模型训练。具体而言，各客户端基于本地数据对全局模型进行多轮梯度更新，服务器再按照客户端样本量对本地模型参数进行加权平均，得到新的全局模型。该方法显著减少了分布式训练中的通信轮次，为隐私保护场景下的高效协同学习奠定了基础，并成为后续联邦学习研究的核心基线方法。  
 
+### Federated Optimization in Heterogeneous Networks  
+code-link: https://github.com/litian96/FedProx  
+MLSys 2020  
+summary: FedProx针对联邦学习中客户端数据异构和设备异构导致的训练不稳定问题，提出一种带近端正则项的联邦优化方法，在客户端本地目标函数中加入对全局模型参数的约束项，以限制本地更新偏离全局模型过远。该方法能够缓解非IID数据下局部训练漂移和部分客户端无法完整参与训练的问题，从而提高联邦训练的稳定性与收敛表现，是面向异构联邦环境的重要改进方法。  
+
 ### FEDERATED TEXT-DRIVEN PROMPT GENERATION  FOR VISION-LANGUAGE MODELS(FedTPG)  
 code-link: https://github.com/boschresearch/FedTPG  
 ICLR 2024  
